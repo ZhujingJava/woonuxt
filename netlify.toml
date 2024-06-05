@@ -1,5 +1,5 @@
 [template.environment]
-  GQL_HOST = " https://hwinspire.com/graphql"
+  GQL_HOST = " http://hwinspire.com/graphql"
 #  GQL_HOST = "WordPress URL http://example.com"
   NUXT_IMAGE_DOMAINS = "Comma separated list of domains. example.com,example2.com"
 GRAPHQL_DEBUG=true
