@@ -96,7 +96,7 @@ Example: I have created a pages directory and added a `contact.vue` file in the 
 
 | Plugin/Software | Version |
 | --------------- | ------- |
-| WordPress       | 6.5.6   |
+| WordPress       | 6.5.3   |
 | WooCommerce     | 8.9.1   |
 | WPGraphQL       | 1.26.0  |
 | WooGraphQL      | 0.20.0  |
@@ -114,6 +114,13 @@ Example: I have created a pages directory and added a `contact.vue` file in the 
 | French 🇫🇷     | fr   |
 | Italian 🇮🇹    | it   |
 | Portuguese 🇵🇹 | pt   |
+
+### Local SSL Setup
+
+- Install [mkcert](https://github.com/FiloSottile/mkcert) on your machine.
+- Run `mkcert localhost` to generate a certificate for localhost. You should now have a `localhost.pem` and `localhost-key.pem` file in your current directory. See the image below for an example.
+- Then run `mkcert -install` to install the certificate authority.
+- Finally, run `npm run dev:ssl` to start the dev server with SSL.
 
 #### Credits
 
