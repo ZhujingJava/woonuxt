@@ -24,7 +24,7 @@ export default defineNuxtConfig({
   'graphql-client': {
     clients: {
       default: {
-        host: process.env.GQL_HOST || ' http://hwinspire.com/graphql',
+        host: process.env.GQL_HOST || ' https://hwinspire.com/graphql',
         corsOptions: { mode: 'cors', credentials: 'include' },
       },
     },
